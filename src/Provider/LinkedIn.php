@@ -46,7 +46,7 @@ class LinkedIn extends AbstractProvider
             'email' => $email,
             'location' => $location,
             'description' => $description,
-            'imageurl' => $response->pictureUrl,
+            //'imageurl' => $response->pictureUrl,
             'urls' => $response->publicProfileUrl,
         ));
 
